@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MarkdownMaker</id>
+    <version>$version$</version>
+    <authors>Enrico Rossini (enrico.rossini.uk@live.com)</authors>
+    <owners>Enrico Rossini - PureSourceCode.com</owners>
+    <licenseUrl>http://puresourcecode.com</licenseUrl>
+    <projectUrl>http://puresourcecode.com/page/markdownmaker</projectUrl>
+    <iconUrl>http://www.puresourcecode.com/image.axd?picture=/NuGet/NuGetPackagePSC.PNG</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Lightweight .NET component for programmatically generating Markdown. Useful for producing rich diagnostic logs with minimal dependencies.</description>
+    <copyright>Copyright 2019 Enrico Rossini</copyright>
+    <tags>markdown diagnostics logging pcl</tags>
+  </metadata>
+  <files>
+    <file src="..\MarkdownMaker\bin\Release\MarkdownMaker.dll" target="lib\portable-windows8+net45" />
+    <file src="..\MarkdownMaker\bin\Release\MarkdownMaker.dll" target="lib\portable-net45+win+wp8+wpa81" />
+    <file src="..\MarkdownMaker\bin\Release\MarkdownMaker.dll" target="lib\portable-net45+sl50+MonoAndroid10+MonoTouch10" />
+  </files>
+</package>
